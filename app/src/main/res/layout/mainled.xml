@@ -28,34 +28,42 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/logo1" />
 
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint = "Enter Name" />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
-        android:textStyle="normal"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint = "Password"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="100dp"
+    <Switch
+        android:id="@+id/led1"
+        android:layout_width="291dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.03"
-        android:text="Login" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.18"
+        android:longClickable="false"
+        android:text="Green"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <Switch
+        android:id="@+id/led2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0.18"
+        android:checked="false"
+        android:text="Red"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <Switch
+        android:id="@+id/led3"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0.18"
+        android:checked="false"
+        android:text="Blue"
+        android:textColor="#000000"
+        android:textStyle="normal" />
 
     <TextView
         android:id="@+id/textView"
